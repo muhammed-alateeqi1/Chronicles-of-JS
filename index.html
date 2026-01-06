@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronicles-of-JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      ::-webkit-scrollbar {
+        width: 10px;
+        background-color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- result -->
+    <div
+      style="
+        color: #b20e0ebb;
+        width: 500px;
+        height: fit-content;
+        border: 1px solid #ffffffbb;
+        border-radius: 5px;
+        text-align: center;
+      "
+    >
+      <h1 id="demo">Open The Console</h1>
+    </div>
+    <div class="calc-products-container">
+      <input type="text" placeholder="price" id="price" />
+      <p class="errPrice"></p>
+      <input type="text" placeholder="profit" id="profit" />
+      <p class="errProfit"></p>
+      <input type="text" placeholder="tax" id="tax" />
+      <p class="errTax"></p>
+      <input type="text" placeholder="ads" id="ads" />
+      <p class="errAds"></p>
+      <button id="clcBtn">Submit</button>
+      <h1 class="result"></h1>
+    </div>
+
+    <!-- Note ==> If u wanna see any results from the examples folder active the right script path -->
+
+    <script src="CalcProducts.js"></script>
+    <script src="examples/variables.js"></script>
+    <!-- <script src="examples/operators.js"></script> -->
+    <!-- <script src="examples/primitive-types.js"></script> -->
+  </body>
+</html>
