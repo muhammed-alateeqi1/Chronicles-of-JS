@@ -84,4 +84,8 @@ console.log(void 123);  // undefined
 console.log("\nTernary Operator:");
 let age = 18;
 let canVote = (age >= 18) ? "Yes" : "No";
+<<<<<<< HEAD
 console.log(canVote) // Yes
+=======
+console.log(canVote); // "Yes"
+>>>>>>> 144b0cf99ce6ba4342a66f0bc7d531667462c4f7

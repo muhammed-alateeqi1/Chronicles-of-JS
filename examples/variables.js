@@ -56,3 +56,4 @@ function getAvg(x , y){
 }
 let result = getAvg(100 , 50);
 console.log("Avreage : " , result); // 75
+
